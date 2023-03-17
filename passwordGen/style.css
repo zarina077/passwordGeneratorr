@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:110px 10px;
+    background-color: rgba(140, 237, 232, 0.793);
+
+}
+h1{
+    font-size: 39px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+
+}
+section{
+   width: 50%;
+   height: 500px;
+   border-radius: 10px;
+   text-align: center;
+       font-family: 'Source Sans Pro', sans-serif;
+font-size: 24px;
+   padding: 40px;
+   color: white;
+background-color: rgb(28, 189, 210);
+box-shadow: 5px 3px 11px 4px rgb(94, 131, 132);}
+.inputBtn{
+    width: 60%;
+    color: black;
+    height: 50px;
+    margin: 10px 140px;
+    background-color: white;
+}
+.inputBtn input{
+    color: black;
+    width: 80%;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    border:none;
+}
+.inputBtn button{
+    width: 12%;
+    display: none;
+    height: 90%;
+      outline: none;
+    background-color: rgba(178, 239, 240, 0.782);
+    border:none;
+    border-radius: 10px;
+}
+.btn button {width: 380px;
+    height: 45px;
+    border: none;
+    transition: ease-in-out .3s all;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 26px;
+font-size: 20px;
+font-weight: 400;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(20, 136, 182);
+color: white;
+
+}
+.passwords{
+    text-align: left;
+    width: 60%;
+    margin-left: 140px;
+}
+.UpperCase,
+.LowerCase,
+.Numbers,
+.Symbols,
+.lengthPass{
+    margin: 5px 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 47%;
+    background-color: white;
+appearance: none;
+outline: none;
+border-radius: 20px;
+box-shadow: 0 0 5px rgba(0,0,0,2);
+transition: .5s;
+
+}
+input:checked[type="checkbox"]{
+    background-color: rgb(20, 136, 182);
+}
+input:checked[type="checkbox"]:before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px  5px rgba(0,0,0,.2);
+    transform: scale(1.1);
+    background:white;
+    transition: .5s;
+
+}
+input:checked[type="checkbox"]:before{
+    left: 20px;
+}
+button:hover{
+    transform: scale(1.03);
+
+}
